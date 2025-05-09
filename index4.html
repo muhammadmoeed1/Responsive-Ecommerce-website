@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="style4.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Header Section Start  -->
+    <header class="header">
+        <div class="logo">
+            <i class="fas fa-shopping-bag"></i>
+            <span id="logoName">Brand</span>
+        </div>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <div class="vertical-line"></div>
+            <select class="searching">
+                <option>All category</option>
+                <option>Electronics</option>
+                <option>Clothing</option>
+                <option>Home & Kitchen</option>
+            </select>
+            <button>Search</button>
+        </div>
+
+        <div class="icons">
+            <div class="icon">
+                <i class="fas fa-user"></i>
+                <span>Profile</span>
+            </div>
+            <div class="icon">
+                <i class="fas fa-comment"></i>
+                <span>Message</span>
+            </div>
+            <div class="icon">
+                <i class="fas fa-heart"></i>
+                <span>Orders</span>
+            </div>
+            <div class="icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span>My cart</span>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End  -->
+     
+<!-- Navbar Section Start -->
+    <nav class="main-navbar">
+        <ul class="nav-left">
+            <li><a href="index.html" style="text-decoration: none; color: inherit;">☰ Home</a></li>
+            <li><a href="index1.html" style="text-decoration: none; color: inherit;">Products</a></li>
+            <li><a href="index4.html" style="text-decoration: none; color: inherit;">Cart</a></li>
+            <li><a href="index2.html" style="text-decoration: none; color: inherit;">Favorites</a></li>
+            <li><a href="index3.html" style="text-decoration: none; color: inherit;">Orders</a></li>
+        </ul>
+        
+        <ul class="nav-right">
+            <li>English, USD <i class="fas fa-chevron-down"></i></li>
+            <li>Ship to <img src="images/germany.png" alt="Germany" class="flag">&nbsp;<i
+                    class="fas fa-chevron-down"></i></li>
+        </ul>
+    </nav>
+    <!-- my cart 3 section start -->
+    <h2 style="font-size: 24px; line-height: 32px; color: #1C1C1C; margin-left: 3rem;margin-top: 2rem;">My cart (3)</h2>
+
+    <div class="my-cart3">
+        <div class="mycart3-left">
+
+            <div class="img-left">
+                <div class="img-sec">
+                    <img src="images/mc1.png" alt="">
+                </div>
+                <div class="details-left-side">
+                    <h4>T-shirts with multiple colors, for
+                        men</h4>
+                    <p>Size: medium, Color: blue, Material:
+                        Cotton</p>
+                    <button class="btn1-mycart">Remove</button>
+                    <button class="btn2-mycart">Save
+                        for later</button>
+                </div>
+                <div class="price-left-end">
+                    <div class="para-left">
+                        <p>$78.99</p>
+                    </div>
+                    <label for="quantity" style="font-size: 14px; color: #1C1C1C; margin-right: 8px;">Qty:</label>
+                    <input type="number" id="quantity" name="quantity" value="0" min="1"
+                        style="padding: 5px; border-radius: 4px; border: 1px solid #DEE2E7; width: 50px;">
+
+                </div>
+            </div>
+            <hr>
+
+            <div class="img-left">
+                <div class="img-sec">
+                    <img src="images/mc2.png" alt="">
+                </div>
+                <div class="details-left-side">
+                    <h4>Jeans bag for travel for men</h4>
+                    <p>Size: medium, Color: blue, Material:
+                        Jeans</p>
+                    <button class="btn1-mycart">Remove</button>
+                    <button class="btn2-mycart">Save
+                        for later</button>
+                </div>
+                <div class="price-left-end">
+                    <div class="para-left">
+                        <p>$78.99</p>
+                    </div>
+                    <label for="quantity" style="font-size: 14px; color: #1C1C1C; margin-right: 8px;">Qty:</label>
+                    <input type="number" id="quantity" name="quantity" value="0" min="1"
+                        style="padding: 5px; border-radius: 4px; border: 1px solid #DEE2E7; width: 50px;">
+
+                </div>
+            </div>
+            <hr>
+
+
+            <div class="img-left">
+                <div class="img-sec">
+                    <img src="images/mc3.png" alt="">
+                </div>
+                <div class="details-left-side">
+                    <h4>Lamps for bedroom</h4>
+                    <p>Size: medium, Color: XYZ, Material:
+                        Glass</p>
+                    <button class="btn1-mycart">Remove</button>
+                    <button class="btn2-mycart">Save
+                        for later</button>
+                </div>
+                <div class="price-left-end">
+                    <div class="para-left">
+                        <p>$78.99</p>
+                    </div>
+                    <label for="quantity" style="font-size: 14px; color: #1C1C1C; margin-right: 8px;">Qty:</label>
+                    <input type="number" id="quantity" name="quantity" value="0" min="1"
+                        style="padding: 5px; border-radius: 4px; border: 1px solid #DEE2E7; width: 50px;">
+
+                </div>
+            </div>
+
+            <div class="buttons-style">
+                <button class="btn1-style"><i class="fas fa-arrow-left"></i>&nbsp;&nbsp;Back To Shop</button>
+                <button class="btn2-style">Remove
+                    all</button>
+            </div>
+
+        </div>
+
+
+
+        <div class="mycart3-right">
+
+            <div class="mycart3-right1">
+                <p>Have a coupon?</p>
+                <div class="border-style-two">
+                    <button class="btn-style-1">Add
+                        coupon</button>
+                    <button class="btn-style-2">Apply</button>
+                </div>
+            </div>
+
+            <div class=" mycart3-right2">
+                <div class="first-head-1"
+                    style="display: flex; margin-top: 1rem; margin-right: 1rem; margin-left: 1rem; justify-content: space-between;">
+                    <p style="font-size: 16px; line-height: 24px; color: #505050;">Subtotal:</p>
+                    <p style="color: #505050; font-size: 16px; line-height: 24px;">$1403.97</p>
+                </div>
+                <div class="first-head-1"
+                    style="display: flex; margin-top: 1rem; margin-right: 1rem; margin-left: 1rem; justify-content: space-between;">
+                    <p style="font-size: 16px; line-height: 24px; color: #505050;">Discount:</p>
+                    <p style="color: #FA3434; font-size: 16px; line-height: 24px;">-$60.00</p>
+                </div>
+                <div class="first-head-1" style="display: flex;margin: 1rem; justify-content: space-between;">
+                    <p style="font-size: 16px; line-height: 24px; color: #505050;">Tax:</p>
+                    <p style="color: #00B517; font-size: 16px; line-height: 24px;">+$14.00</p>
+                </div>
+                <hr style="margin: 0 1rem;">
+                <div class="first-head-1" style="display: flex;margin: 1rem; justify-content: space-between;">
+                    <p style="font-size: 16px; line-height: 24px; color: #1C1C1C; font-weight: bold;">Total:</p>
+                    <p style="color: #1C1C1C; font-size: 16px; line-height: 24px; font-weight: bold;">$1357.97</p>
+                </div>
+                <div class="first-head-1" style="display: flex;margin: 1rem; justify-content: space-between;">
+                    <button
+                        style="width: 248px; height: 54px; border-radius: 8px; background-color: #00B517; font-size: 18px; line-height: 100%;color: white;">Checkout</button>
+                </div>
+
+                <div class="first-head-1" style="display: flex;margin: 1rem; justify-content: space-around;">
+                    <img src="images/f1.png" alt="">
+                    <img src="images/f2.png" alt="">
+                    <img src="images/f3.png" alt="">
+                    <img src="images/f4.png" alt="">
+                    <img src="images/f5.png" alt="">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- my cart 3section ending -->
+
+    <!-- icons and headings start-->
+    <div class="features">
+        <div class="feature-item">
+            <div class="icon-ih"><i class="fa fa-lock" style="color: #8B96A5;"></i></div>
+            <div class="text">
+                <h4>Secure Payment</h4>
+                <p>Have you ever finally just</p>
+            </div>
+        </div>
+
+        <div class="feature-item">
+            <div class="icon-ih"><i class="fa fa-headset" style="color: #8B96A5;"></i></div>
+            <div class="text">
+                <h4>Customer Support</h4>
+                <p>Have you ever finally just</p>
+            </div>
+        </div>
+
+        <div class="feature-item">
+            <div class="icon-ih"><i class="fa fa-truck" style="color: #8B96A5;"></i></div>
+            <div class="text">
+                <h4>Free Delivery</h4>
+                <p>Have you ever finally just</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- icons and heading ends-->
+
+
+    <!-- saved for later section start here -->
+    <div class="related-pro">
+        <p class="main-head">Saved for later</p>
+
+        <div class="card-container">
+            <div class="card-starts">
+                <img src="images/sfl1.png" alt=""><br>
+                <p class="p1">$99.50</p>
+                <p class="p2">Ipad - Black</p>
+                <button class="move-to-cart" onclick="alert('Item moved to cart!')"><i
+                        class="fa fa-shopping-cart"></i>&nbsp; Move to cart</button>
+            </div>
+            <div class="card-starts">
+                <img src="images/sfl2.png" alt=""><br>
+                <p class="p1">$99.50</p>
+                <p class="p2">Iphone - Black</p>
+                <button class="move-to-cart" onclick="alert('Item moved to cart!')"><i class="fa fa-shopping-cart"></i>
+                    &nbsp;Move to cart</button>
+            </div>
+            <div class="card-starts">
+                <img src="images/sfl3.png" alt=""><br>
+                <p class="p1">$99.50</p>
+                <p class="p2">Smartphone - white</p>
+                <button class="move-to-cart" onclick="alert('Item moved to cart!')"><i class="fa fa-shopping-cart"></i>
+                    &nbsp;Move to cart</button>
+            </div>
+            <div class="card-starts">
+                <img src="images/sfl4.png" alt=""><br>
+                <p class="p1">$99.50</p>
+                <p class="p2">Laptop - Grey</p>
+                <button class="move-to-cart" onclick="alert('Item moved to cart!')"><i class="fa fa-shopping-cart"></i>
+                    &nbsp;Move to cart</button>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- saved for later section end here -->
+
+
+    <!-- banners ection start here -->
+    <div class="banner-main">
+        <div class="banner-text">
+            <h2>Super discount on more than 100 USD</h2>
+            <p>Have you ever finally just write dummy info</p>
+        </div>
+        <a href="#" class="shop-button">Shop now</a>
+    </div>
+
+    <!-- banner section eding here -->
+
+
+
+    <!-- Footer  and subscription Section Start -->
+    <footer class="footer-section">
+        <div class="footer-container">
+            <!-- Brand & Info -->
+            <div class="footer-brand">
+                <h2><i class="fas fa-shopping-bag"></i>&nbsp; Brand</h2>
+                <p>Best information about the company goes here but now lorem ipsum is</p>
+                <div class="social-icons">
+                    <i class="icons-style fab fa-facebook"></i>
+                    <i class="icons-style fab fa-twitter"></i>
+                    <i class="icons-style fab fa-linkedin"></i>
+                    <i class="icons-style fab fa-youtube"></i>
+                    <i class="icons-style fab fa-instagram"></i>
+                </div>
+            </div>
+
+            <!-- Footer Links -->
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Find store</a></li>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Partnership</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Find store</a></li>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Information</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Money Refund</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>For users</h3>
+                    <ul>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Register</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">My Orders</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Get App Section -->
+            <div class="footer-app">
+                <h3>Get app</h3>
+                <img src="images/appstore.png" alt="App Store">
+                <img src="images/googlePlay.png" alt="Google Play">
+            </div>
+        </div>
+
+
+
+    </footer>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <p>© 2023 Ecommerce.</p>
+        <div class="footer-language">
+            <img src="images/germany.png" alt="Flag">
+            <span>English</span> &nbsp;<i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+    <!-- Footer Section End -->
+
+
+
+
+
+</body>
+
+</html>

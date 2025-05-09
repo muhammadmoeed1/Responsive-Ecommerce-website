@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+
+    <link rel="stylesheet" href="styles1and2.css">
+
+</head>
+
+<body>
+    
+      
+    <!-- Header Section Start  -->
+    <header class="header">
+        <div class="logo">
+            <i class="fas fa-shopping-bag"></i>
+            <span id="logoName">Brand</span>
+        </div>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <div class="vertical-line"></div>
+            <select class="searching">
+                <option>All category</option>
+                <option>Electronics</option>
+                <option>Clothing</option>
+                <option>Home & Kitchen</option>
+            </select>
+            <button>Search</button>
+        </div>
+
+        <div class="icons">
+            <div class="icon">
+                <i class="fas fa-user"></i>
+                <span>Profile</span>
+            </div>
+            <div class="icon">
+                <i class="fas fa-comment"></i>
+                <span>Message</span>
+            </div>
+            <div class="icon">
+                <i class="fas fa-heart"></i>
+                <span>Orders</span>
+            </div>
+            <div class="icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span>My cart</span>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End  -->
+
+    <!-- Navbar Section Start -->
+    <nav class="main-navbar">
+        <ul class="nav-left">
+            <li><a href="index.html" style="text-decoration: none; color: inherit;">☰ Home</a></li>
+            <li><a href="index1.html" style="text-decoration: none; color: inherit;">Products</a></li>
+            <li><a href="index4.html" style="text-decoration: none; color: inherit;">Cart</a></li>
+            <li><a href="index2.html" style="text-decoration: none; color: inherit;">Favorites</a></li>
+            <li><a href="index3.html" style="text-decoration: none; color: inherit;">Orders</a></li>
+        </ul>
+        <ul class="nav-right">
+            <li>English, USD <i class="fas fa-chevron-down"></i></li>
+            <li>Ship to <img src="images/germany.png" alt="Germany" class="flag">&nbsp;<i
+                    class="fas fa-chevron-down"></i></li>
+        </ul>
+    </nav>
+    <!-- Navbar Section End -->
+
+    <ul class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Clothings</a></li>
+        <li><a href="#">Men’s wear</a></li>
+        <li><a href="#">Summer clothing</a></li>
+    </ul>
+
+
+    <!-- Details section start -->
+    <div class="main-div">
+        <div class="sidebar">
+            <div class="arrows-style">
+                <h3 style="margin-right: 8rem;">Category</h3><i class="fas fa-chevron-down arrow-icon-style"></i>
+            </div><br>
+            <ul>
+                <li style="background: none;padding: 3px;">Mobile accessory</li>
+                <li style="background: none;padding: 3px;">Electronics</li>
+                <li style="background: none;padding: 3px;">Smartphones</li>
+                <li style="background: none;padding: 3px;">Modern tech</li>
+            </ul>
+            <a href="#" style="color:#0D6EFD ;">See all</a><br><br>
+            <hr><br>
+
+            <!-- -------------------------------------------- -->
+
+            <div class="arrows-style">
+                <h3 style="margin-right: 9rem;">Brands</h3><i class="fas fa-chevron-down arrow-icon-style"></i>
+            </div><br>
+            <ul>
+                <li style="background: none;"><input type="checkbox" id="samsung">&nbsp;&nbsp;&nbsp;<label
+                        for="samsung">Samsung</label></li>
+                <li style="background: none;"><input type="checkbox" id="apple">&nbsp;&nbsp;&nbsp;<label
+                        for="apple">Apple</label></li>
+                <li style="background: none;"><input type="checkbox" id="huawei">&nbsp;&nbsp;&nbsp;<label
+                        for="huawei">Huawei</label></li>
+                <li style="background: none;"><input type="checkbox" id="poco">&nbsp;&nbsp;&nbsp;<label
+                        for="poco">Poco</label></li>
+                <li style="background: none;"><input type="checkbox" id="lenovo">&nbsp;&nbsp;&nbsp;<label
+                        for="lenovo">Lenovo</label></li>
+            </ul>
+
+            <a href="#" style="color:#0D6EFD ;">See all</a><br><br>
+            <hr><br>
+            <!-- -------------------------------------------- -->
+
+            <div class="arrows-style">
+                <h3 style="margin-right: 8.5rem;">Features</h3><i class="fas fa-chevron-down arrow-icon-style"></i>
+            </div><br>
+            <ul>
+                <li style="background: none;"><input type="checkbox" id="samsung">&nbsp;&nbsp;&nbsp;<label
+                        for="samsung">Metallic</label></li>
+                <li style="background: none;"><input type="checkbox" id="apple">&nbsp;&nbsp;&nbsp;<label
+                        for="apple">Plastic cover</label></li>
+                <li style="background: none;"><input type="checkbox" id="huawei">&nbsp;&nbsp;&nbsp;<label
+                        for="huawei">8GB RAM</label></li>
+                <li style="background: none;"><input type="checkbox" id="poco">&nbsp;&nbsp;&nbsp;<label for="poco">Super
+                        power</label></li>
+                <li style="background: none;"><input type="checkbox" id="lenovo">&nbsp;&nbsp;&nbsp;<label
+                        for="lenovo">Large Memory</label></li>
+            </ul>
+
+            <a href="#" style="color:#0D6EFD ;">See all</a><br><br>
+            <hr><br>
+            <!-- --------------------------------- -->
+            <div class="price-range-container">
+                <h4 style="margin-right: 5rem; text-align: left;">Price range</h4>
+                <div class="slider-container">
+                    <input type="range" id="min-price" min="0" max="999999" value="0" step="1">
+                    <input type="range" id="max-price" min="0" max="999999" value="999999" step="1">
+                </div>
+                <div class="input-group">
+                    <input type="number" id="min-value" value="0" readonly>
+                    <input type="number" id="max-value" value="999999" readonly>
+                </div>
+                <button class="apply-btn">Apply</button><br><br>
+            </div>
+            <hr><br>
+
+            <!-- -------------------------------- -->
+            <div class="arrows-style">
+                <h3 style="margin-right: 8rem;">Condition</h3><i class="fas fa-chevron-down arrow-icon-style"></i>
+            </div><br>
+            <div class="condition-filter">
+                <label>
+                    <input type="radio" name="condition" value="any" checked> Any
+                </label>
+                <label>
+                    <input type="radio" name="condition" value="refurbished"> Refurbished
+                </label>
+                <label>
+                    <input type="radio" name="condition" value="brand-new"> Brand new
+                </label>
+                <label>
+                    <input type="radio" name="condition" value="old-items"> Old items
+                </label>
+            </div>
+            <hr><br>
+            <!-- ----------------------------------------------- -->
+            <div class="arrows-style">
+                <h3 style="margin-right: 9rem;">Ratings</h3><i class="fas fa-chevron-down arrow-icon-style"></i>
+            </div><br>
+            <div class="rating-filter">
+                <label>
+                    <input type="checkbox">
+                    <span class="stars five">★★★★★</span>
+                </label>
+                <label>
+                    <input type="checkbox">
+                    <span class="stars four">★★★★<span class="gray">★</span></span>
+                </label>
+                <label>
+                    <input type="checkbox">
+                    <span class="stars three">★★★<span class="gray">★★</span></span>
+                </label>
+                <label>
+                    <input type="checkbox">
+                    <span class="stars two">★★<span class="gray">★★★</span></span>
+                </label>
+            </div>
+
+
+
+            <!-- -------------------------------------------- -->
+
+
+
+
+        </div>
+
+
+        <!-- Right section of products -->
+
+        <div class="products">
+            <div class="items-header">
+                <p><strong>12,911</strong> items in <strong>Mobile accessory</strong></p>
+
+                <div class="filters">
+                    <label class="checkbox-container">
+                        <input type="checkbox" checked>
+                        <span class="checkmark"></span> Verified only
+                    </label>
+
+                    <select>
+                        <option selected>Featured</option>
+                        <option>Newest</option>
+                        <option>Best Selling</option>
+                    </select>
+
+                    <div class="view-toggle">
+                        <button class="grid-view active">▦</button>
+                        <button class="list-view">≡</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="images/iphone.png" alt="Product Image">
+                <div class="product-info">
+                    <h5>Iphone</h5><br>
+                    <p class="price">$998.00 <span class="old-price">$1128.00</span></p>
+                    <div class="rating" data-rating="0">
+                        <span class="star" data-value="1">★</span>
+                        <span class="star" data-value="2">★</span>
+                        <span class="star" data-value="3">★</span>
+                        <span class="star" data-value="4">★</span>
+                        <span class="star" data-value="5">★</span>
+                        <span class="near-star">7.5</span>&nbsp;
+                        <span class="orders">154 orders</span>&nbsp;
+                        <span class="green-heading">Free Shipping</span>
+                    </div><br>
+                    <p class="long-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua</p><br>
+                    <p><a href="index2.html">View details</a></p>
+                </div>
+                <span class="heart">♡</span>
+            </div>
+            <!-- ----------------------------- -->
+
+            <div class="product-card">
+                <img src="images/mobile.png" alt="Product Image">
+                <div class="product-info">
+                    <h5>Smartphone</h5><br>
+                    <p class="price">$998.00</p>
+                    <div class="rating" data-rating="0">
+                        <span class="star" data-value="1">★</span>
+                        <span class="star" data-value="2">★</span>
+                        <span class="star" data-value="3">★</span>
+                        <span class="star" data-value="4">★</span>
+                        <span class="star" data-value="5">★</span>
+                        <span class="near-star">7.5</span>&nbsp;
+                        <span class="orders">154 orders</span>&nbsp;
+                        <span class="green-heading">Free Shipping</span>
+                    </div><br>
+                    <p class="long-para">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. Duis aute
+                        irure dolor in reprehenderit</p><br>
+                    <p><a href="index2.html">View details</a></p>
+                </div>
+                <span class="heart">♡</span>
+            </div>
+            <!-- ----------------------------- -->
+
+            <div class="product-card">
+                <img src="images/ipad.png" alt="Product Image">
+                <div class="product-info">
+                    <h5>Tablet</h5><br>
+                    <p class="price">$998.00 <span class="old-price">$1128.00</span></p>
+                    <div class="rating" data-rating="0">
+                        <span class="star" data-value="1">★</span>
+                        <span class="star" data-value="2">★</span>
+                        <span class="star" data-value="3">★</span>
+                        <span class="star" data-value="4">★</span>
+                        <span class="star" data-value="5">★</span>
+                        <span class="near-star">7.5</span>&nbsp;
+                        <span class="orders">154 orders</span>&nbsp;
+                        <span class="green-heading">Free Shipping</span>
+                    </div><br>
+                    <p class="long-para">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. Duis aute
+                        irure dolor in reprehenderit</p><br>
+                    <p><a href="index2.html">View details</a></p>
+                </div>
+                <span class="heart">♡</span>
+            </div>
+            <!-- ----------------------------- -->
+
+            <div class="product-card">
+                <img src="images/laptop.png" alt="Product Image">
+                <div class="product-info">
+                    <h5>Laptop</h5><br>
+                    <p class="price">$998.00 <span class="old-price">$1128.00</span></p>
+                    <div class="rating" data-rating="0">
+                        <span class="star" data-value="1">★</span>
+                        <span class="star" data-value="2">★</span>
+                        <span class="star" data-value="3">★</span>
+                        <span class="star" data-value="4">★</span>
+                        <span class="star" data-value="5">★</span>
+                        <span class="near-star">7.5</span>&nbsp;
+                        <span class="orders">154 orders</span>&nbsp;
+                        <span class="green-heading">Free Shipping</span>
+                    </div><br>
+                    <p class="long-para">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. Duis aute
+                        irure dolor in reprehenderit</p><br>
+                    <p><a href="index2.html">View details</a></p>
+                </div>
+                <span class="heart">♡</span>
+            </div>
+            <!-- ----------------------------- -->
+
+            <div class="product-card">
+                <img src="images/watch.png" alt="Product Image">
+                <div class="product-info">
+                    <h5>Smartwatch</h5><br>
+                    <p class="price">$998.00 <span class="old-price">$1128.00</span></p>
+                    <div class="rating" data-rating="0">
+                        <span class="star" data-value="1">★</span>
+                        <span class="star" data-value="2">★</span>
+                        <span class="star" data-value="3">★</span>
+                        <span class="star" data-value="4">★</span>
+                        <span class="star" data-value="5">★</span>
+                        <span class="near-star">7.5</span>&nbsp;
+                        <span class="orders">154 orders</span>&nbsp;
+                        <span class="green-heading">Free Shipping</span>
+                    </div><br>
+                    <p class="long-para">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. Duis aute
+                        irure dolor in reprehenderit</p><br>
+                    <p><a href="index2.html">View details</a></p>
+                </div>
+                <span class="heart">♡</span>
+            </div>
+            <!-- ----------------------------- -->
+
+            <div class="product-card">
+                <img src="images/headphone.png" alt="Product Image">
+                <div class="product-info">
+                    <h5>Headphone</h5><br>
+                    <p class="price">$998.00 <span class="old-price">$1128.00</span></p>
+                    <div class="rating" data-rating="0">
+                        <span class="star" data-value="1">★</span>
+                        <span class="star" data-value="2">★</span>
+                        <span class="star" data-value="3">★</span>
+                        <span class="star" data-value="4">★</span>
+                        <span class="star" data-value="5">★</span>
+                        <span class="near-star">7.5</span>&nbsp;
+                        <span class="orders">154 orders</span>&nbsp;
+                        <span class="green-heading">Free Shipping</span>
+                    </div><br>
+                    <p class="long-para">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. Duis aute
+                        irure dolor in reprehenderit</p><br>
+                    <p><a href="index2.html">View details</a></p>
+                </div>
+                <span class="heart">♡</span>
+            </div>
+            <!-- ----------------------------- -->
+
+            <!-- pagination -->
+
+            <div class="pagination-container">
+                <label for="itemsPerPage">Show</label>
+                <select id="itemsPerPage">
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                </select>
+                <ul class="pagination">
+                    <li class="prev"><img src="images/icon1.png" alt="" srcset=""></li>
+                    <li class="page active">1</li>
+                    <li class="page">2</li>
+                    <li class="page">3</li>
+                    <li class="next"><img src="images/icon2.png" style="transform: rotate(180deg);" alt="">
+                    </li>
+                </ul>
+            </div>
+
+            <!-- -------------------------- -->
+
+        </div>
+
+
+
+
+    </div>
+    <!-- details section ending -->
+
+
+    <!-- Footer  and subscription Section Start -->
+    <section class="newsletter-section">
+        <div class="newsletter-container">
+            <h2>Subscribe on our newsletter</h2>
+            <p>Get daily news on upcoming offers from many suppliers all over the world</p>
+            <div class="newsletter-form">
+                <div class="input-group">
+                    <i class="far fa-envelope"></i>&nbsp;&nbsp;
+                    <input type="email" placeholder="Email">
+                </div>
+                <button class="subscribe-btn">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer-section">
+        <div class="footer-container">
+            <!-- Brand & Info -->
+            <div class="footer-brand">
+                <h2><i class="fas fa-shopping-bag"></i>&nbsp; Brand</h2>
+                <p>Best information about the company goes here but now lorem ipsum is</p>
+                <div class="social-icons">
+                    <i class="icons-style fab fa-facebook"></i>
+                    <i class="icons-style fab fa-twitter"></i>
+                    <i class="icons-style fab fa-linkedin"></i>
+                    <i class="icons-style fab fa-youtube"></i>
+                    <i class="icons-style fab fa-instagram"></i>
+                </div>
+            </div>
+
+            <!-- Footer Links -->
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Find store</a></li>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Partnership</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Find store</a></li>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Information</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Money Refund</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>For users</h3>
+                    <ul>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Register</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">My Orders</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Get App Section -->
+            <div class="footer-app">
+                <h3>Get app</h3>
+                <img src="images/appstore.png" alt="App Store">
+                <img src="images/googlePlay.png" alt="Google Play">
+            </div>
+        </div>
+
+
+
+    </footer>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <p>© 2023 Ecommerce.</p>
+        <div class="footer-language">
+            <img src="images/germany.png" alt="Flag">
+            <span>English</span> &nbsp;<i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+    <!-- Footer Section End -->
+
+
+    <script>
+
+        // stars rating!
+        document.querySelectorAll('.rating').forEach(rating => {
+            rating.addEventListener('click', function (e) {
+                if (e.target.classList.contains('star')) {
+                    let value = e.target.getAttribute('data-value');
+                    rating.setAttribute('data-rating', value);
+                    rating.querySelectorAll('.star').forEach(star => {
+                        star.classList.toggle('selected', star.getAttribute('data-value') <= value);
+                    });
+                }
+            });
+        });
+
+        // haert color
+
+        document.querySelectorAll('.heart').forEach(heart => {
+            heart.addEventListener('click', function () {
+                this.classList.toggle('liked');
+            });
+        });
+
+        // price range section js
+        const minPrice = document.getElementById("min-price");
+        const maxPrice = document.getElementById("max-price");
+        const minValue = document.getElementById("min-value");
+        const maxValue = document.getElementById("max-value");
+
+        minPrice.addEventListener("input", updateValues);
+        maxPrice.addEventListener("input", updateValues);
+
+        function updateValues() {
+            let minVal = parseInt(minPrice.value);
+            let maxVal = parseInt(maxPrice.value);
+
+            if (minVal > maxVal - 1000) {
+                minPrice.value = maxVal - 1000;
+                minVal = maxVal - 1000;
+            }
+
+            if (maxVal < minVal + 1000) {
+                maxPrice.value = minVal + 1000;
+                maxVal = minVal + 1000;
+            }
+
+            minValue.value = minVal;
+            maxValue.value = maxVal;
+        }
+
+        // pagination
+        document.querySelectorAll('.pagination .page').forEach(page => {
+            page.addEventListener('click', function () {
+                document.querySelectorAll('.pagination .page').forEach(p => p.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+
+    </script>
+
+</body>
+
+</html>
