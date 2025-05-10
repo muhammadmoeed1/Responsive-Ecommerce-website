@@ -1,4 +1,5 @@
 🛍️ Responsive E-Commerce Website
+
 This is a modern and fully responsive e-commerce website built using HTML, CSS, and JavaScript. The project was developed as part of an internship task with a focus on clean design, responsiveness, and user-friendly functionality.
 
 🔗 Live Demo
